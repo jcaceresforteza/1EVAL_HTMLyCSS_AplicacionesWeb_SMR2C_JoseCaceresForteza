@@ -19,8 +19,32 @@
         <p>Número favorito:
             <input type="number" required placeholder="Numeritos" name="favorito" step="any">
         </p>
+        <p>¿Cuantas cabras tienes?
+            <input type="range" required name="cabras" min="0" max="27" step="0.5">
+        </p>
+        <p>Hora que te vas a dormir:
+            <input type="time" name="hora">
+        </p>
         <p>Sobre mi:
-            <input type="text" name="sobre" name="datos" required maxlength="20" minlength="10" placeholder="Detallitos">
+            <br>
+            <textarea name="datos" placeholder="Tus datiños aquí porfavore" rows="5" cols="29"></textarea>
+        </p>
+        <p>Marca aquí si te gusta el melocotón:
+            <input type="checkbox" name="casilla">
+        </p>
+        <p>Color de tu alma:
+            <input type="color" value="#000000" name="color">
+        </p>
+        <p>Sabor de helado favorito:
+            <select required name="menu">
+                <option value="chocolate">Chocolate</option>
+                <option value="dulce de leche">Dulce de leche</option>
+                <option value="pistacho">Pistacho</option>
+                <option value="menta">Menta</option>
+                <option value="vainilla">Vainilla</option>
+                <option value="fresa">Fresa</option>
+                <option value="fentanilo">Fentanilo</option>
+            </select>
         </p>
         <p>
             <button type="submit">
