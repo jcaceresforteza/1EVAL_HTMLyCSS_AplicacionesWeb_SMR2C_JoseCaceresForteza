@@ -6,20 +6,20 @@
 </head>
 <body>
     <form action="ejemplo.php" method="get">
-        <p>Nombre: <input type="text" autofocus name="Nombre" required size="40" placeholder="Escribe aquí tu nombre mi rey"></p>
-        <p>Contraseña:
+        <p>Nombre*: <input type="text" autofocus name="Nombre" required size="40" placeholder="Escribe aquí tu nombre mi rey"></p>
+        <p>Contraseña*:
             <input type="password" name="contra" required>
         </p>
-        <p>Año de nacimiento: <input type="number" name="nacido" required min="1900"></p>
-        <p>Sexo:
+        <p>Año de nacimiento*: <input type="number" name="nacido" required min="1900"></p>
+        <p>Sexo*:
             <input type="radio" name="hmo" required value="h"> Hombre
             <input type="radio" name="hmo" required value="m"> Mujer
             <input type="radio" name="hmo" required value="o"> Otros
         </p>
-        <p>Número favorito:
+        <p>Número favorito*:
             <input type="number" required placeholder="Numeritos" name="favorito" step="any">
         </p>
-        <p>¿Cuantas cabras tienes?
+        <p>¿Cuantas cabras tienes?*
             <input type="range" required name="cabras" min="0" max="27" step="0.5">
         </p>
         <p>Hora que te vas a dormir:
@@ -35,7 +35,7 @@
         <p>Color de tu alma:
             <input type="color" value="#000000" name="color">
         </p>
-        <p>Sabor de helado favorito:
+        <p>Sabor de helado favorito*:
             <select required name="menu">
                 <option value="chocolate">Chocolate</option>
                 <option value="dulce de leche">Dulce de leche</option>
