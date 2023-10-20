@@ -9,4 +9,22 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+*{
+    background-color: black;
+    color:#cacaca;
+}
+#adios{
+    color: chocolate;
+}
+.lol{
+    color: forestgreen;
+    text-align: left;
+}
+#samba{
+    color: greenyellow;
+}
+.brasil{
+    color: blue;
+    background-color:greenyellow ;
+}
 /* esto es un comentario */
