@@ -1,0 +1,127 @@
+body {
+
+   text-align: center;
+}
+
+*{
+   
+}
+header {
+    text-align: left;
+    background-color: blue;
+    padding: 1.5%;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+}
+
+header a {
+    margin-right: 1%;
+}
+header a:link{
+    color: purple;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+header a:visited{
+    color: purple;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+div.containerbottles img {
+    opacity: 50%;
+}
+div.enmedio {
+    display: inline;
+    background-color: darkblue;
+    color: purple;
+    font-weight: bold;
+    font-size:larger;
+    position: absolute;
+    padding: 1%;
+    border-radius: 20px;
+    z-index: 1;
+    top: 25%;
+    right: 30%;
+    
+}
+.button {
+    padding: 1%;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+
+p.button:hover {
+    background-color: black;
+}
+
+.lamejor {
+    font-size: xx-large;
+    color: blue;
+    font-weight: bolder;
+}
+div.imgow {
+    column-count: 3;
+}
+
+div.imgow p {
+    color: darkblue;
+    font-weight: bold;
+    font-size: larger;
+}
+div.imgow img{
+    height: 128px;
+    width: 192;
+}
+.bottle1 img {
+    float: left;
+
+}
+
+.bottle1 p::first-letter{
+    color: red;
+    font-weight: bold;
+    font-size: xx-large;
+    border-right: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+
+}
+.bottle1 {
+    display: inline-block;
+    width: 50%;
+}
+
+footer {
+    background-color: blue;
+    padding: 1.5%;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.izq {
+    float: left;
+    color: purple;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.med {
+    float:center;
+    font-weight: bold;
+    color: purple;
+}
+.der {
+    float: right;
+    padding-right: 1%;
+}
+
+.der img{
+    height: 32px;
+    width: 32px;
+}
